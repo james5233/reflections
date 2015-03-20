@@ -1,0 +1,50 @@
+Viewing a diff between the two files allowed me to focus on the lines that
+actually changed between the two, since the common lines, excluding the
+context, were not shown. Also, the diff format showed me what was done
+to the lines that changed i.e. which lines were removed and which were
+added.
+
+Having a history of all the previous versions of one's programs allows one 
+to realise which common mistakes we keep making, and avoid these in the 
+long run. Also, there is the added benefit of reverting back to any version 
+from the past.
+
+The biggest difference between manual commits and automatically saved 
+versions is that the former allows one to have complete or functional
+versions as well as the ability to create a logical progression of changes
+between versions which is easier to understand. This is not the case with
+the latter. The downside to manual commits, and the upside to automatic
+saving, is that the user might not follow the guidelines that make the
+manual commit system effective and end up with too few versions or lost
+versions or too many versions.
+
+One reason for why Google Docs treats multiple files individually is that 
+doing otherwise requires more intervention on the user part and hence a 
+more complex system. General purpose systems like Google Docs which are 
+not fundamentally focussed on programming or version control do not need
+complexity that does not yield proportionate benefits. For a system like git
+, however, tracking multiple files together makes sense as the files in
+programming projects are interrelated and a 'logical change' may span 
+across multiple files.
+
+The command 'git log' can be used to view a log of all the commits made
+to the repository. The information that is presented for each diff includes
+the unique id or serial number assigned to each commit, the author's name
+as well as the commit message which typically explains in short what changes
+were made or what features were added, removed, or fixed. The command 'git
+diff' is used to view the differences between two commits. The differences
+are shown in a format similar to the 'diff' program, except that the output
+is shown for each pair of corresponding files that changed between commits.
+
+When one is using version control, one is less likely to lose track of the 
+history of the changes made since this is where one is getting assistance
+from the version control system. This allows one to venture into making
+changes that one would have though to hard or complicated to recover from
+if they went south. With a version control system like git, travelling
+back and forth between the logical changes made in a project allows one
+to arrive at the desired mis of features as quickly as possible.
+
+I want to use git to be able to work on C, C++, and Java Projects in the 
+future. Also, I understand that familiarity with version control systems
+is an essential skill for people working in (or planning to work in) the IT 
+sector.

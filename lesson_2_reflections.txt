@@ -1,0 +1,7 @@
+When I initialize a repository, git looks around fro files in the directory
+and collects and stores some data about them. This may be required because
+of the way git works. What I mean is that I have seen similar behaviour
+with may other programs and libraries where one need to initialize a 
+data-structure or a library before being able to use it. My guess is that
+necessary book-keeping tasks which cannot be logically clubbed with other
+git actions like commit etc. are carried out in the initialization stage.
