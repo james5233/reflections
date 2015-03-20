@@ -5,3 +5,9 @@ with may other programs and libraries where one need to initialize a
 data-structure or a library before being able to use it. My guess is that
 necessary book-keeping tasks which cannot be logically clubbed with other
 git actions like commit etc. are carried out in the initialization stage.
+
+The staging area allows for a logical separation between the working
+directory and a repository. So, whatever one puts in the working directory
+need not automatically be included in the repository. Adding a step between
+the working dir and the repository makes the commit process simpler, while
+moving the necessary complexity to the staging area.
