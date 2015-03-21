@@ -11,3 +11,31 @@ directory and a repository. So, whatever one puts in the working directory
 need not automatically be included in the repository. Adding a step between
 the working dir and the repository makes the commit process simpler, while
 moving the necessary complexity to the staging area.
+
+If there were no staging area and one wanted to do commits that reflected
+individual logical changes, one is sure to come across a lot of trouble
+in trying to carry out the changes in a consistent manner that follows a
+logical progression from one to the other (change). This task is facilitated
+by the presence of an intermediate area where one can review and organise
+changes before they are committed. So, one can say that the repository is 
+akin to a desk drawer where a collection of files associated with the 
+current project is stored and the staging area is like a work desk where
+the work at hand is processed.
+
+Branches allows one to experiment in multiple directions without messing up 
+the structure of our history or without making it difficult to switch
+between the various directions.
+
+Diagrams help in visualizing the strucrure of the project, because that is
+how information is managed internally by git - in a tree form.
+
+Merges are ways of accomplishing union of logically distinct but mutually 
+compatible features added to the project in separate branches. I do not
+think there is a simpler way to express to a very good extent what a
+merge does than the graph that we had used. It's the first thing that comes
+to mind.
+
+Doing merges using git and then resolving conflicts has the advantage that
+most code that is common between the two branches need not be sought out
+manually. Git does most of the grunt work for us leaving us to focus on
+the places where thinking is required.
