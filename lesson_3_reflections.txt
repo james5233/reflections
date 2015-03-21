@@ -1,4 +1,4 @@
 Creating a remote repository is helpful when the multiple people are working
-on a project or when one needs access to the repository from multiple devices
-which may or may not belong to us. The latter may be true in case one has to
-work while they are travelling.
+on a project or when one needs access to the repository from multiple 
+devices which may or may not belong to us. The latter may be true in case 
+one has to work while they are travelling.
