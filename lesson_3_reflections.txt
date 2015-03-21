@@ -8,3 +8,10 @@ automatic setup which triggers update on specific events, say a commit,
 because of the same reasons why manual commits in git are preferred over
 an automatic system of version control - flexibility, freedom, and
 robustness.
+
+Branches are useful when the changes one wants to make to the project are
+closely related to it. Also, authorization to modify a project is necessary
+for branching on it. It is not reasonabel to grant everybody rights to
+modify a project just because they want to try out some new ideas with it.
+In this case cloning is the choice. Forking is essentially cloning with
+a few added features, like acknowledgement of the source, etc.
