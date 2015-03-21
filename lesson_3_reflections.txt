@@ -15,3 +15,9 @@ for branching on it. It is not reasonabel to grant everybody rights to
 modify a project just because they want to try out some new ideas with it.
 In this case cloning is the choice. Forking is essentially cloning with
 a few added features, like acknowledgement of the source, etc.
+
+Keeping a local copy of the last known state of the remote repository is
+helpful when any change that involves comparison between the local and
+remote branches is to be made. Network usage is reduced and offline work
+becomes possible. One can say that the speed of processing is improved
+gratly as the latency involved with network transactions is eliminated.
