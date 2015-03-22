@@ -21,3 +21,7 @@ helpful when any change that involves comparison between the local and
 remote branches is to be made. Network usage is reduced and offline work
 becomes possible. One can say that the speed of processing is improved
 gratly as the latency involved with network transactions is eliminated.
+
+Using Git or GitHub makes version control much easier. I do not think that 
+there would be any advantages to collaboration techniques that do not use
+some sort of authentication and versioning control.
