@@ -25,3 +25,14 @@ gratly as the latency involved with network transactions is eliminated.
 Using Git or GitHub makes version control much easier. I do not think that 
 there would be any advantages to collaboration techniques that do not use
 some sort of authentication and versioning control.
+
+Making changes into a different branch instead of the master itself is
+preferred when many people are collaborating on a project. This approach
+of people making changes to their separate branches and then making
+pull-requests to master allows ample review of changes before master
+is updated. Also, the concept of merge resolution on the different branch
+itself by merging master into it and then updating the different branch
+also ensures that master remains unmodified by all the back and forth
+changes. When everything is alright, a pull request can be  merged and
+the master gets modified. A disadvantage of this approach might be the
+added complexity. The benefits, however, far outweigh the drawbacks.
